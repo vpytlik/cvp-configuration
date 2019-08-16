@@ -24,3 +24,14 @@ tempest.api.object_storage.test_account_services_negative.AccountNegativeTest.te
 tempest.api.object_storage.test_account_quotas.AccountQuotasTest.test_admin_modify_quota[id-63f51f9f-5f1d-4fc6-b5be-d454d70949d6,smoke]: not compatible with ceph
 tempest.api.object_storage.test_account_quotas.AccountQuotasTest.test_upload_valid_object[id-a22ef352-a342-4587-8f47-3bbdb5b039c4,smoke]: not compatible with ceph
 tempest.api.object_storage.test_account_quotas_negative.AccountQuotasNegativeTest.test_user_modify_quota[id-d1dc5076-555e-4e6d-9697-28f1fe976324,negative]: not compatible with ceph
+
+tempest.api.compute.servers.test_create_server.ServersTestBootFromVolume.test_list_servers[id-9a438d88-10c6-4bcd-8b5b-5b6e25e1346f,smoke]: Nova compute is not enabled
+tempest.api.compute.servers.test_create_server.ServersTestBootFromVolume.test_verify_server_details[id-5de47127-9977-400a-936f-abcfbec1218f,smoke]: Nova compute is not enabled
+tempest.api.compute.servers.test_create_server.ServersTestJSON.test_list_servers[id-9a438d88-10c6-4bcd-8b5b-5b6e25e1346f,smoke]: Nova compute is not enabled
+tempest.api.compute.servers.test_create_server.ServersTestJSON.test_verify_server_details[id-5de47127-9977-400a-936f-abcfbec1218f,smoke]: Nova compute is not enabled
+tempest.api.compute.servers.test_create_server.ServersTestManualDisk.test_list_servers[id-9a438d88-10c6-4bcd-8b5b-5b6e25e1346f,smoke]: Nova compute is not enabled
+tempest.api.compute.servers.test_create_server.ServersTestManualDisk.test_verify_server_details[id-5de47127-9977-400a-936f-abcfbec1218f,smoke]: Nova compute is not enabled
+tempest.api.compute.servers.test_server_actions.ServerActionsTestJSON.test_reboot_server_hard[id-2cb1baf6-ac8d-4429-bf0d-ba8a0ba53e32,smoke]: Nova compute is not enabled
+tempest.api.compute.servers.test_server_addresses.ServerAddressesTestJSON.test_list_server_addresses[id-6eb718c0-02d9-4d5e-acd1-4e0c269cef39,network,smoke]: Nova compute is not enabled
+tempest.api.compute.servers.test_server_addresses.ServerAddressesTestJSON.test_list_server_addresses_by_network[id-87bbc374-5538-4f64-b673-2b0e4443cc30,network,smoke]: Nova compute is not enabled
+tempest.api.compute.servers.test_attach_interfaces.AttachInterfacesTestJSON.test_add_remove_fixed_ip[id-c7e0e60b-ee45-43d0-abeb-8596fd42a2f9,network,smoke]: Nova compute is not enabled
