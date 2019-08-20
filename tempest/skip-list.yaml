@@ -35,3 +35,7 @@ tempest.api.compute.servers.test_server_actions.ServerActionsTestJSON.test_reboo
 tempest.api.compute.servers.test_server_addresses.ServerAddressesTestJSON.test_list_server_addresses[id-6eb718c0-02d9-4d5e-acd1-4e0c269cef39,network,smoke]: Nova compute is not enabled
 tempest.api.compute.servers.test_server_addresses.ServerAddressesTestJSON.test_list_server_addresses_by_network[id-87bbc374-5538-4f64-b673-2b0e4443cc30,network,smoke]: Nova compute is not enabled
 tempest.api.compute.servers.test_attach_interfaces.AttachInterfacesTestJSON.test_add_remove_fixed_ip[id-c7e0e60b-ee45-43d0-abeb-8596fd42a2f9,network,smoke]: Nova compute is not enabled
+tempest.scenario.test_network_basic_ops.TestNetworkBasicOps.test_network_basic_ops[compute,id-f323b3ba-82f8-4db7-8ea6-6a895869ec49,network,smoke]: Nova compute is not enabled
+tempest.scenario.test_server_multinode.TestServerMultinode.test_schedule_to_all_nodes[compute,id-9cecbe35-b9d4-48da-a37e-7ce70aa43d30,network,smoke]: Nova compute is not enabled
+tempest.scenario.test_server_basic_ops.TestServerBasicOps.test_server_basic_ops[compute,id-7fff3fb3-91d8-4fd0-bd7d-0204f1f180ba,network,smoke]: Nova compute is not enabled
+tempest.api.volume.test_volumes_actions.VolumesActionsTest.test_attach_detach_volume_to_instance[compute,id-fff42874-7db5-4487-a8e1-ddda5fb5288d,smoke]: Nova compute is not enabled
